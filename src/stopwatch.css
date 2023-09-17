@@ -1,0 +1,38 @@
+body {
+  background-color: #000;
+}
+.watch-time {
+  text-align: center;
+  color: #fff;
+  font-size: 80px;
+}
+.watch-buttons {
+  display: flex;
+  justify-content: center;
+}
+.watch-buttons button {
+  margin: 20px;
+  border: none;
+  padding: 10px 30px;
+  cursor: pointer;
+  color: #fff;
+}
+.watch-buttons button:first-child {
+  background-color: green;
+}
+.watch-buttons button:last-child {
+  background-color: red;
+}
+
+@media only screen and (max-width: 600px) {
+  .watch-time {
+    font-size: 40px;
+  }
+  .watch-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 150px;
+  }
+}
